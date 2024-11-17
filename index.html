@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+<script src="video-control.js"></script>
 
 <header>
     <a href="index.html" style="text-decoration: none; color: inherit;">
@@ -16,7 +17,7 @@
     <nav>
         <a href="#">КАТАЛОГ</a>
         <a href="pay.html">ОПЛАТА ТА ДОСТАВКА </a>
-<!--        <a href="delivery.html">ДОСТАВКА</a>-->
+        <!--        <a href="delivery.html">ДОСТАВКА</a>-->
         <a href="back.html">ПОВЕРНЕННЯ</a>
     </nav>
     <div class="cart-icon">🛒</div>
@@ -26,14 +27,23 @@
     <div class="breadcrumbs">Головна / Жіночі головні убори / Хутряна шапка з шарфом TeploComlect біло-сіра</div>
     <div class="product">
         <div class="product-image">
-            <img id="mainImage" src="im1.jpeg" alt="Хутряна шапка з шарфом">
-            <div class="thumbnail-images">
-                <img src="im1.jpeg" alt="Thumbnail 0" onclick="changeImage('im1.jpeg')">
-                <img src="im2.jpeg" alt="Thumbnail 1" onclick="changeImage('im2.jpeg')">
-                <img src="im3.jpeg" alt="Thumbnail 2" onclick="changeImage('im3.jpeg')">
-                <!-- <img src="thumb3.jpg" alt="Thumbnail 3" onclick="changeImage('thumb3.jpg')"> -->
-            </div>
-        </div>
+<!--        <video class="thumbnail-video" controls>-->
+<!--            <source src="v1.mp4" type="video/mp4">-->
+<!--            Your browser does not support the video tag.-->
+<!--        </video>-->
+    <img id="mainImage" src="im1.jpeg" alt="Хутряна шапка з шарфом">
+    <div class="thumbnail-images">
+<!--        <video class="thumbnail-video" controls>-->
+<!--            <source src="v1.mp4" type="video/mp4">-->
+<!--            Your browser does not support the video tag.-->
+<!--        </video>-->
+        <img src="im1.jpeg" alt="Thumbnail 0" onclick="changeImage('im1.jpeg')">
+        <img src="im2.jpeg" alt="Thumbnail 1" onclick="changeImage('im2.jpeg')">
+        <img src="im3.jpeg" alt="Thumbnail 2" onclick="changeImage('im3.jpeg')">
+
+    </div>
+</div>
+
         <div class="product-details">
             <h1>Хутряна шапка з шарфом TeploComlect біло-сіра</h1>
             <p class="availability">✓ В наявності</p>
@@ -59,11 +69,27 @@
                     <li><strong>Сезон:</strong> Зима</li>
                 </ul>
             </div>
-            
-                <p>Вот пример описания для анонса продажи ананаса: Соковитий стиглий ананас — тропічний фрукт з неповторним смаком та ароматом. Ідеально підходить для приготування десертів, смузі, коктейлів або як корисний перекус. Насичений вітамінами та антиоксидантами, ананас сприяє зміцненню імунітету та покращенню травлення. Вага фрукта: 1–1,5 кг.</p>
-            </div>
+
+            <p>Вот пример описания для анонса продажи ананаса: Соковитий стиглий ананас — тропічний фрукт з неповторним
+                смаком та ароматом. Ідеально підходить для приготування десертів, смузі, коктейлів або як корисний
+                перекус. Насичений вітамінами та антиоксидантами, ананас сприяє зміцненню імунітету та покращенню
+                травлення. Вага фрукта: 1–1,5 кг.</p>
         </div>
-<!--    </div>-->
+    </div>
+    <!--    </div>-->
+    <div class="product-review">
+    <h2>Огляд товару</h2>
+    <div class="video-review">
+        <video id="productVideo" controls>
+            <source src="v1.mp4" type="video/mp4">
+            Ваш браузер не підтримує відтворення відео.
+        </video>
+    </div>
+    <p>
+        Цей відеоогляд демонструє всі переваги та особливості даного товару. Ви можете побачити, як він виглядає у реальному житті та дізнатися більше про його характеристики.
+    </p>
+</div>
+
 </main>
 
 <script>
@@ -76,7 +102,9 @@
     <div class="row">
         <div class="col-md-3 footer-brand">
             <h2>SOCKS</h2>
-            <p>Всемирную паутину образуют миллионы веб-серверов сети Интернет, расположенных по всему миру. Веб-сервер — компьютерная программа, запускаемая на подключённом к сети компьютере и использующая протокол HTTP для передачи данных.</p>
+            <p>Всемирную паутину образуют миллионы веб-серверов сети Интернет, расположенных по всему миру. Веб-сервер —
+                компьютерная программа, запускаемая на подключённом к сети компьютере и использующая протокол HTTP для
+                передачи данных.</p>
             <p>© 2024 «SOCKS».</p>
         </div>
 
@@ -107,13 +135,13 @@
         </div>
 
         <div class="col-md-3 footer-ns">
-    <h4>Підписка на новини</h4>
-    <p>Підпишіться на нашу новостную рассылку, щоб не пропустити нічого важливого!</p>
-    <div class="input-group">
-        <input type="email" class="form-control" placeholder="Введіть свій email..." required>
-        <button class="btn btn-subscribe" type="submit">Підписатися</button>
-    </div>
-</div>
+            <h4>Підписка на новини</h4>
+            <p>Підпишіться на нашу новостную рассылку, щоб не пропустити нічого важливого!</p>
+            <div class="input-group">
+                <input type="email" class="form-control" placeholder="Введіть свій email..." required>
+                <button class="btn btn-subscribe" type="submit">Підписатися</button>
+            </div>
+        </div>
 
     </div>
 </footer>
@@ -123,7 +151,7 @@
 <!--&lt;!&ndash;    <img style="width: 100%;" src="http://ufive.ru/img/watermark.png" alt="logo"/>&ndash;&gt;-->
 <!--</a>-->
 <script>
-    
+
     const saleEndTime = new Date();
     saleEndTime.setHours(23, 59, 59);
 
@@ -135,7 +163,7 @@
         const minutes = Math.floor((timeRemaining / (1000 * 60)) % 60);
         const seconds = Math.floor((timeRemaining / 1000) % 60);
 
-        document.getElementById('countdown').textContent = 
+        document.getElementById('countdown').textContent =
             `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
 
         if (timeRemaining > 0) {
