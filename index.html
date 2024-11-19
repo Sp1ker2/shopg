@@ -1,10 +1,16 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <title>АНАЛЬНАЯ ЗАЛУПА</title>
+    <link rel="stylesheet" href="../shopg/style.css">
+<!--    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Хутряна шапка з шарфом</title>
+<!--    <title>Хутряна шапка з шарфом</title>-->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -15,7 +21,7 @@
         <div class="logo">SMALL DETAIL</div>
     </a>
     <nav>
-        <a href="#">КАТАЛОГ</a>
+        <a href="back.html">КАТАЛОГ</a>
         <a href="pay.html">ОПЛАТА ТА ДОСТАВКА </a>
         <!--        <a href="delivery.html">ДОСТАВКА</a>-->
         <a href="back.html">ПОВЕРНЕННЯ</a>
@@ -27,22 +33,22 @@
     <div class="breadcrumbs">Головна / Жіночі головні убори / Хутряна шапка з шарфом TeploComlect біло-сіра</div>
     <div class="product">
         <div class="product-image">
-<!--        <video class="thumbnail-video" controls>-->
-<!--            <source src="v1.mp4" type="video/mp4">-->
-<!--            Your browser does not support the video tag.-->
-<!--        </video>-->
-    <img id="mainImage" src="im1.jpeg" alt="Хутряна шапка з шарфом">
-    <div class="thumbnail-images">
-<!--        <video class="thumbnail-video" controls>-->
-<!--            <source src="v1.mp4" type="video/mp4">-->
-<!--            Your browser does not support the video tag.-->
-<!--        </video>-->
-        <img src="im1.jpeg" alt="Thumbnail 0" onclick="changeImage('im1.jpeg')">
-        <img src="im2.jpeg" alt="Thumbnail 1" onclick="changeImage('im2.jpeg')">
-        <img src="im3.jpeg" alt="Thumbnail 2" onclick="changeImage('im3.jpeg')">
+            <!--        <video class="thumbnail-video" controls>-->
+            <!--            <source src="v1.mp4" type="video/mp4">-->
+            <!--            Your browser does not support the video tag.-->
+            <!--        </video>-->
+            <img id="mainImage" src="im1.jpeg" alt="Хутряна шапка з шарфом">
+            <div class="thumbnail-images">
+                <!--        <video class="thumbnail-video" controls>-->
+                <!--            <source src="v1.mp4" type="video/mp4">-->
+                <!--            Your browser does not support the video tag.-->
+                <!--        </video>-->
+                <img src="im1.jpeg" alt="Thumbnail 0" onclick="changeImage('im1.jpeg')">
+                <img src="im2.jpeg" alt="Thumbnail 1" onclick="changeImage('im2.jpeg')">
+                <img src="im3.jpeg" alt="Thumbnail 2" onclick="changeImage('im3.jpeg')">
 
-    </div>
-</div>
+            </div>
+        </div>
 
         <div class="product-details">
             <h1>Хутряна шапка з шарфом TeploComlect біло-сіра</h1>
@@ -78,17 +84,18 @@
     </div>
     <!--    </div>-->
     <div class="product-review">
-    <h2>Огляд товару</h2>
-    <div class="video-review">
-        <video id="productVideo" controls>
-            <source src="v1.mp4" type="video/mp4">
-            Ваш браузер не підтримує відтворення відео.
-        </video>
+        <h2>Огляд товару</h2>
+        <div class="video-review">
+            <video id="productVideo" controls>
+                <source src="v1.mp4" type="video/mp4">
+                Ваш браузер не підтримує відтворення відео.
+            </video>
+        </div>
+        <p>
+            Цей відеоогляд демонструє всі переваги та особливості даного товару. Ви можете побачити, як він виглядає у
+            реальному житті та дізнатися більше про його характеристики.
+        </p>
     </div>
-    <p>
-        Цей відеоогляд демонструє всі переваги та особливості даного товару. Ви можете побачити, як він виглядає у реальному житті та дізнатися більше про його характеристики.
-    </p>
-</div>
 
 </main>
 
@@ -179,45 +186,193 @@
 </script>
 
 
-<!-- Секция отзывов -->
-<section class="reviews">
-    <h2>Відгуки</h2>
-    <div class="review">
-        <div class="stars">
-            ★★★★☆
-        </div>
-        <p class="review-text">Чудовий комплект! Шапка тепла і стильна, рекомендую!</p>
-        <p class="review-author">– Олена Іванова</p>
+<!--&lt;!&ndash; Секция отзывов &ndash;&gt;-->
+<!--<section class="reviews">-->
+<!--    <h2>Відгуки</h2>-->
+<!--    <div class="review">-->
+<!--        <div class="stars">-->
+<!--            ★★★★☆-->
+<!--        </div>-->
+<!--        <p class="review-text">Чудовий комплект! Шапка тепла і стильна, рекомендую!</p>-->
+<!--        <p class="review-author">– Олена Іванова</p>-->
+<!--    </div>-->
+
+<!--    <div class="review">-->
+<!--        <div class="stars">-->
+<!--            ★★★★★-->
+<!--        </div>-->
+<!--        <p class="review-text">Відмінна якість, швидка доставка. Дякую!</p>-->
+<!--        <p class="review-author">– Ігор Петров</p>-->
+<!--    </div>-->
+
+<!--    &lt;!&ndash; Форма для добавления нового отзыва &ndash;&gt;-->
+<!--    <div class="add-review">-->
+<!--        <h3>Залишити відгук</h3>-->
+<!--        <form method="POST" action="submit_review.php">-->
+<!--            <input type="hidden" name="product_id" value="1"> &lt;!&ndash; Укажите ваш product_id &ndash;&gt;-->
+<!--            <label for="user_name">Ваше ім'я:</label>-->
+<!--            <input type="text" id="user_name" name="user_name" required>-->
+
+<!--            <label for="rating">Оцінка:</label>-->
+<!--            <select id="rating" name="rating" required>-->
+<!--                <option value="5">5 зірок</option>-->
+<!--                <option value="4">4 зірки</option>-->
+<!--                <option value="3">3 зірки</option>-->
+<!--                <option value="2">2 зірки</option>-->
+<!--                <option value="1">1 зірка</option>-->
+<!--            </select>-->
+
+<!--            <label for="comment">Ваш відгук:</label>-->
+<!--&lt;!&ndash;            <textarea id="comment" name="comment" required placeholder="Напишіть ваш відгук..."></textarea>&ndash;&gt;-->
+
+<!--            <button type="submit">Відправити відгук</button>-->
+<!--        </form>-->
+<!--    </div>-->
+<!--</section>-->
+
+
+
+<!--<script>-->
+<!--    // Динамическая загрузка отзывов-->
+<!--    document.addEventListener("DOMContentLoaded", function () {-->
+<!--        fetch("fetch_reviews.php")-->
+<!--            .then(response => response.text())-->
+<!--            .then(data => {-->
+<!--                document.getElementById("reviews").innerHTML = data;-->
+<!--            })-->
+<!--            .catch(error => {-->
+<!--                console.error("Ошибка загрузки отзывов:", error);-->
+<!--            });-->
+<!--    });-->
+<!--</script>-->
+<!--<section id="comments-section">-->
+<!--    <h2>Коментарі</h2>-->
+<!--    <div id="comments-list">-->
+<!--        &lt;!&ndash; Коментарі будуть загружені тут &ndash;&gt;-->
+<!--    </div>-->
+
+<!--    <div class="add-comment">-->
+<!--        <h3>Додати коментар</h3>-->
+<!--        <form id="comment-form">-->
+<!--            <label for="user-name">Ваше ім'я:</label>-->
+<!--            <input type="text" id="user-name" name="name" required>-->
+
+<!--            <label for="user-comment">Ваш коментар:</label>-->
+<!--            <textarea id="user-comment" name="comment" required></textarea>-->
+
+<!--            <button type="submit">Відправити</button>-->
+<!--        </form>-->
+<!--    </div>-->
+<!--</section>-->
+
+<!--<script>-->
+<!--    // Загрузка комментариев-->
+<!--    function loadComments() {-->
+<!--        fetch('load_comments.php')-->
+<!--            .then(response => response.text())-->
+<!--            .then(data => {-->
+<!--                document.getElementById('comments-list').innerHTML = data;-->
+<!--            })-->
+<!--            .catch(error => console.error('Ошибка загрузки комментариев:', error));-->
+<!--    }-->
+
+<!--    // Обработчик формы-->
+<!--    document.getElementById('comment-form').addEventListener('submit', function (e) {-->
+<!--        e.preventDefault();-->
+
+<!--        const name = document.getElementById('user-name').value;-->
+<!--        const comment = document.getElementById('user-comment').value;-->
+
+<!--        fetch('submit_comment.php', {-->
+<!--            method: 'POST',-->
+<!--            headers: {-->
+<!--                'Content-Type': 'application/x-www-form-urlencoded',-->
+<!--            },-->
+<!--            body: `name=${encodeURIComponent(name)}&comment=${encodeURIComponent(comment)}`,-->
+<!--        })-->
+<!--            .then(response => response.text())-->
+<!--            .then(data => {-->
+<!--                if (data === 'success') {-->
+<!--                    loadComments(); // Обновляем список комментариев-->
+<!--                    document.getElementById('user-name').value = '';-->
+<!--                    document.getElementById('user-comment').value = '';-->
+<!--                } else {-->
+<!--                    alert('Ошибка добавления комментария.');-->
+<!--                }-->
+<!--            })-->
+<!--            .catch(error => console.error('Ошибка отправки комментария:', error));-->
+<!--    });-->
+
+<!--    // Загрузка комментариев при загрузке страницы-->
+<!--    document.addEventListener('DOMContentLoaded', loadComments);-->
+<!--</script>-->
+
+
+
+
+
+
+<!--<h2>Оставьте комментарий</h2>-->
+
+<!--<form id="comment-form">-->
+<!--    <label for="name">Ваше имя:</label>-->
+<!--    <input type="text" id="name" name="name" required><br><br>-->
+
+<!--    <label for="comment">Комментарий:</label><br>-->
+<!--    <textarea id="comment" name="comment" rows="4" required></textarea><br><br>-->
+
+<!--    <button type="submit">Отправить</button>-->
+<!--</form>-->
+
+<!--<h2>Комментарии:</h2>-->
+<!--<div id="comments-section">-->
+<!--    &lt;!&ndash; Комментарии выводятся через PHP &ndash;&gt;-->
+<!--    <?php foreach ($comments as $comment): ?>-->
+<!--        <?php list($name, $text) = explode(":", $comment, 2); ?>-->
+<!--        <div class="comment">-->
+<!--            <div class="comment-name"><?= htmlspecialchars($name) ?></div>-->
+<!--            <div class="comment-text"><?= htmlspecialchars($text) ?></div>-->
+<!--        </div>-->
+<!--    <?php endforeach; ?>-->
+<!--</div>-->
+
+<!--<script>-->
+<!--    // AJAX для отправки комментариев без перезагрузки страницы-->
+<!--    $('#comment-form').on('submit', function (e) {-->
+<!--        e.preventDefault();-->
+
+<!--        const name = $('#name').val();-->
+<!--        const comment = $('#comment').val();-->
+
+<!--        $.post('submit_comment.php', {name: name, comment: comment}, function (response) {-->
+<!--            $('#comments-section').append(response);-->
+<!--            $('#name').val('');-->
+<!--            $('#comment').val('');-->
+<!--        });-->
+<!--    });-->
+<!--</script>-->
+
+
+
+ <h2>Оставьте комментарий</h2>
+
+    <form id="comment-form">
+        <label for="name">Ваше имя:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="comment">Комментарий:</label><br>
+        <textarea id="comment" name="comment" rows="4" required></textarea><br><br>
+
+        <button type="submit">Отправить</button>
+    </form>
+
+    <h2>Комментарии:</h2>
+    <div id="comments-section">
+        <!-- PHP добавляет существующие комментарии -->
+        <?php include 'load_comments.php'; ?>
     </div>
 
-    <div class="review">
-        <div class="stars">
-            ★★★★★
-        </div>
-        <p class="review-text">Відмінна якість, швидка доставка. Дякую!</p>
-        <p class="review-author">– Ігор Петров</p>
-    </div>
-
-    <!-- Форма для добавления нового отзыва -->
-    <div class="add-review">
-        <h3>Залишити відгук</h3>
-        <form id="reviewForm">
-            <label for="rating">Оцінка:</label>
-            <select id="rating" name="rating" required>
-                <option value="5">5 зірок</option>
-                <option value="4">4 зірки</option>
-                <option value="3">3 зірки</option>
-                <option value="2">2 зірки</option>
-                <option value="1">1 зірка</option>
-            </select>
-
-            <label for="reviewText">Ваш відгук:</label>
-            <textarea id="reviewText" name="reviewText" required placeholder="Напишіть ваш відгук..."></textarea>
-
-            <button type="submit">Відправити відгук</button>
-        </form>
-    </div>
-</section>
-
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="scripts.js"></script>
 </body>
 </html>
