@@ -1,63 +1,63 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-    padding: 0;
-    background-color: #f4f4f4;
-}
+/*body {*/
+/*    font-family: Arial, sans-serif;*/
+/*    margin: 20px;*/
+/*    padding: 0;*/
+/*    background-color: #f4f4f4;*/
+/*}*/
 
-h2 {
-    color: #333;
-}
+/*h2 {*/
+/*    color: #333;*/
+/*}*/
 
-form {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin-bottom: 30px;
-}
+/*form {*/
+/*    background-color: #fff;*/
+/*    padding: 20px;*/
+/*    border-radius: 8px;*/
+/*    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);*/
+/*    margin-bottom: 30px;*/
+/*}*/
 
-label {
-    font-weight: bold;
-}
+/*label {*/
+/*    font-weight: bold;*/
+/*}*/
 
-input, textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
+/*input, textarea {*/
+/*    width: 100%;*/
+/*    padding: 10px;*/
+/*    margin-bottom: 10px;*/
+/*    border: 1px solid #ccc;*/
+/*    border-radius: 4px;*/
+/*}*/
 
-button {
-    padding: 10px 20px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
+/*button {*/
+/*    padding: 10px 20px;*/
+/*    background-color: #4CAF50;*/
+/*    color: white;*/
+/*    border: none;*/
+/*    border-radius: 4px;*/
+/*    cursor: pointer;*/
+/*}*/
 
-button:hover {
-    background-color: #45a049;
-}
+/*button:hover {*/
+/*    background-color: #45a049;*/
+/*}*/
 
-#comments-section {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
+/*#comments-section {*/
+/*    background-color: #fff;*/
+/*    padding: 20px;*/
+/*    border-radius: 8px;*/
+/*    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);*/
+/*}*/
 
-.comment {
-    border-bottom: 1px solid #ccc;
-    padding: 10px 0;
-}
+/*.comment {*/
+/*    border-bottom: 1px solid #ccc;*/
+/*    padding: 10px 0;*/
+/*}*/
 
-.comment-name {
-    font-weight: bold;
-}
+/*.comment-name {*/
+/*    font-weight: bold;*/
+/*}*/
 
-.comment-text {
-    margin-top: 5px;
-}
+/*.comment-text {*/
+/*    margin-top: 5px;*/
+/*}*/
