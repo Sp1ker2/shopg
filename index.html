@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-<meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="styles.css">
@@ -9,10 +9,10 @@
     <link rel="icon" href="topsumka.jpeg" type="image/x-icon">
 
     <link rel="stylesheet" href="../shopg/style.css">
-<!--    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>-->
+    <!--    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!--    <title>Хутряна шапка з шарфом</title>-->
+    <!--    <title>Хутряна шапка з шарфом</title>-->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -28,11 +28,11 @@
         <a href="back.html">ПОВЕРНЕННЯ</a>
         <!--        <a href="delivery.html">ДОСТАВКА</a>-->
     </nav>
-    <div class="cart-icon">🛒</div>
+    <!--    <div class="cart-icon">🛒</div>-->
 </header>
 
 <main>
-    <div class="breadcrumbs">Головна / Жіночі головні сумки / Крос Боді </div>
+    <div class="breadcrumbs">Головна / Жіночі головні сумки / Крос Боді</div>
     <div class="product">
         <div class="product-image">
             <!--        <video class="thumbnail-video" controls>-->
@@ -61,10 +61,10 @@
                 <span class="sale">-31% (SALE)</span>
             </p>
             <div class="size-selection">
-<!--                <label for="size">Оберіть розмір:</label>-->
-<!--                <select id="size">-->
-<!--                    <option>Універсальний</option>-->
-<!--                </select>-->
+                <!--                <label for="size">Оберіть розмір:</label>-->
+                <!--                <select id="size">-->
+                <!--                    <option>Універсальний</option>-->
+                <!--                </select>-->
             </div>
             <a href="registration.html?product=Крос Боді" class="order-button">Оформити замовлення</a>
             <!-- <p class="size-table">Таблиця розмірів: Універсальний розмір</p> -->
@@ -73,7 +73,7 @@
                 <ul>
                     <li><strong>Матеріал: </strong> якісна еко шкіра :</li>
                     <li><strong>Розмір:</strong> 24/13/8</li>
-                    <li><strong>Колір:</strong> чорний, білий , беж, карамель</li>
+                    <li><strong>Колір:</strong> чорний, беж, карамель</li>
                     <li><strong>Унікальність :</strong> Всередині три відділення 😍</li>
                 </ul>
             </div>
@@ -94,7 +94,7 @@
             </video>
         </div>
         <p>
-            Цей відеоогляд демонструє всі переваги та особливості даного товару. Ви можете побачити, як вона  виглядає у
+            Цей відеоогляд демонструє всі переваги та особливості даного товару. Ви можете побачити, як вона виглядає у
             реальному житті та дізнатися більше про її характеристики.
         </p>
     </div>
@@ -231,7 +231,6 @@
 <!--</section>-->
 
 
-
 <!--<script>-->
 <!--    // Динамическая загрузка отзывов-->
 <!--    document.addEventListener("DOMContentLoaded", function () {-->
@@ -308,10 +307,6 @@
 <!--</script>-->
 
 
-
-
-
-
 <!--<h2>Оставьте комментарий</h2>-->
 
 <!--<form id="comment-form">-->
@@ -353,24 +348,23 @@
 <!--</script>-->
 
 
+<h2>Залиште коментар </h2>
 
- <h2>Залиште коментар </h2>
+<form id="comment-form">
+    <label for="name">Ваше имя:</label>
+    <input type="text" id="name" name="name" required><br><br>
 
-    <form id="comment-form">
-        <label for="name">Ваше имя:</label>
-        <input type="text" id="name" name="name" required><br><br>
+    <label for="comment">Коментар:</label><br>
+    <textarea id="comment" name="comment" rows="4" required></textarea><br><br>
 
-        <label for="comment">Коментар:</label><br>
-        <textarea id="comment" name="comment" rows="4" required></textarea><br><br>
+    <button type="submit">Відправити</button>
+</form>
 
-        <button type="submit">Відправити</button>
-    </form>
-
-    <h2>Коментарі:</h2>
-    <div id="comments-section">
-        <!-- PHP добавляет существующие комментарии -->
-<!--        <?php include 'load_comments.php'; ?>-->
-    </div>
+<h2>Коментарі:</h2>
+<div id="comments-section">
+    <!-- PHP добавляет существующие комментарии -->
+    <!--        <?php include 'load_comments.php'; ?>-->
+</div>
 
 <!--    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>-->
 <!--    <script src="scripts.js"></script>-->

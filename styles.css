@@ -18,6 +18,8 @@ main {
 
 /* Заголовок */
 header {
+    justify-content: center;
+    align-items: center;
     padding-left: 5px;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -26,8 +28,8 @@ header {
     left: 0;
     width: 100%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    /*justify-content: center;*/
+    /*align-items: center;*/
     background-color: #000;
     color: #fff;
     z-index: 1;
@@ -466,6 +468,7 @@ nav a:hover {
 .add-review button:hover {
     background-color: #45a049;
 }
+
 /* Общие стили для формы */
 #comment-form {
     max-width: 600px;
@@ -541,3 +544,69 @@ h2 {
     font-family: Arial, sans-serif;
     color: #333;
 }
+
+/* Адаптивные настройки для шапки */
+@media (max-width: 768px) {
+    header {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    header .logo img {
+        width: 120px; /* Уменьшаем размер логотипа */
+    }
+
+    header nav {
+        font-size: 14px; /* Уменьшаем размер шрифта в навигации */
+    }
+
+    header nav a {
+        margin-right: 15px; /* Уменьшаем отступы между ссылками */
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 10px 15px;
+        font-size: 12px;
+    }
+
+    header .logo img {
+        width: 100px; /* Еще меньше логотип на мобильных устройствах */
+    }
+
+    header nav {
+        font-size: 12px; /* Еще меньше шрифт навигации */
+    }
+
+    header nav a {
+        margin-right: 10px; /* Уменьшаем отступы между ссылками */
+    }
+
+    header .logo {
+        margin-bottom: 10px; /* Добавляем отступы между логотипом и навигацией */
+    }
+}
+
+
+/*header {*/
+/*    display: flex;*/
+/*    justify-content: center; !* Выравнивает содержимое по горизонтали *!*/
+/*    align-items: center; !* Выравнивает содержимое по вертикали *!*/
+/*    padding: 5px; !* Меньший отступ, чтобы уменьшить размер шапки *!*/
+/*}*/
+
+/*header .logo {*/
+/*    font-size: 32px;*/
+/*    font-weight: bold;*/
+/*    margin-right: 20px; !* Отступ справа от логотипа *!*/
+/*}*/
+
+/*header nav {*/
+/*    display: flex;*/
+/*}*/
+
+/*header nav a {*/
+/*    margin: 0 15px; !* Отступы между ссылками *!*/
+/*    font-size: 18px;*/
+/*}*/
